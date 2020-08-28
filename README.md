@@ -1,3 +1,7 @@
+## Requirements 
+
+You need Java 8 and Maven.
+
 ## Start Application
 
 Run start application script: [runApp.cmd](https://github.com/IleanaDanielescu/Blog/blob/master/runApp.cmd)
