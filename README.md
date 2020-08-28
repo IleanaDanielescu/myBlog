@@ -48,6 +48,6 @@ When an article is create or updated, an ArticleEvent is published. ArticleEvent
 
 In sendNotifications, all subscribers are taken from the database. Method getNotificationStrategies is called for each subscriber. It decides which type of notification (SMS or email) will be sent.
 
-The implementations for each type of notification is not implemented. It only writes log containing information regarding article and notification type.
+The functionality for each type of notification is not implemented. It only writes log containing information regarding article and notification type.
 
 
