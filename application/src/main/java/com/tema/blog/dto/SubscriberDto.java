@@ -1,4 +1,4 @@
-package com.tema.blog.facade.dto;
+package com.tema.blog.dto;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Pattern;

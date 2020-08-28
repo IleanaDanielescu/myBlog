@@ -4,11 +4,11 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.tema.blog.dto.SubscriberDto;
 import com.tema.blog.entity.Subscriber;
 import com.tema.blog.exception.BusinessException;
 import com.tema.blog.exception.ErrorCode;
 import com.tema.blog.facade.config.Facade;
-import com.tema.blog.facade.dto.SubscriberDto;
 import com.tema.blog.facade.mapper.SubscriberMapper;
 import com.tema.blog.repository.SubscriberRepository;
 

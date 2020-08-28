@@ -2,8 +2,8 @@ package com.tema.blog.facade.mapper;
 
 import org.springframework.stereotype.Service;
 
+import com.tema.blog.dto.SubscriberDto;
 import com.tema.blog.entity.Subscriber;
-import com.tema.blog.facade.dto.SubscriberDto;
 
 @Service
 public class SubscriberMapper {

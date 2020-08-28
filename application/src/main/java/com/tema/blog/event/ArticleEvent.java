@@ -2,7 +2,7 @@ package com.tema.blog.event;
 
 import org.springframework.context.ApplicationEvent;
 
-import com.tema.blog.facade.dto.ArticleDto;
+import com.tema.blog.dto.ArticleDto;
 
 import lombok.Getter;
 

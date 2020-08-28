@@ -1,7 +1,7 @@
 package com.tema.blog.services;
 
+import com.tema.blog.dto.ArticleDto;
 import com.tema.blog.event.ArticleEventType;
-import com.tema.blog.facade.dto.ArticleDto;
 
 public interface NotificationService {
 

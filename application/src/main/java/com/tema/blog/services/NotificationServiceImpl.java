@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.tema.blog.bo.ArticleInfo;
+import com.tema.blog.dto.ArticleDto;
 import com.tema.blog.entity.Subscriber;
 import com.tema.blog.event.ArticleEventType;
-import com.tema.blog.facade.dto.ArticleDto;
 import com.tema.blog.repository.SubscriberRepository;
 
 @Service

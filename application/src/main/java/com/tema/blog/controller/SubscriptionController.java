@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.tema.blog.dto.SubscriberDto;
 import com.tema.blog.facade.SubscriptionFacade;
-import com.tema.blog.facade.dto.SubscriberDto;
 
 @RestController
 @RequestMapping("api/subscription")

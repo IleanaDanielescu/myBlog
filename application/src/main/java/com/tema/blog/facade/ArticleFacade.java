@@ -4,9 +4,9 @@ import java.util.List;
 
 import org.springframework.context.ApplicationEventPublisher;
 
-import com.tema.blog.facade.dto.ArticleDto;
-import com.tema.blog.facade.dto.ArticlesPageDto;
-import com.tema.blog.facade.dto.BasicArticleDto;
+import com.tema.blog.dto.ArticleDto;
+import com.tema.blog.dto.ArticlesPageDto;
+import com.tema.blog.dto.BasicArticleDto;
 
 public interface ArticleFacade {
 

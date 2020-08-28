@@ -1,6 +1,6 @@
 package com.tema.blog.facade;
 
-import com.tema.blog.facade.dto.SubscriberDto;
+import com.tema.blog.dto.SubscriberDto;
 
 public interface SubscriptionFacade {
 

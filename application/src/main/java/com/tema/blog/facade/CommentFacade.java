@@ -2,7 +2,7 @@ package com.tema.blog.facade;
 
 import java.util.List;
 
-import com.tema.blog.facade.dto.CommentDto;
+import com.tema.blog.dto.CommentDto;
 
 public interface CommentFacade {
 

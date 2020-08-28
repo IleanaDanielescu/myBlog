@@ -17,11 +17,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.tema.blog.dto.ArticleDto;
+import com.tema.blog.dto.ArticlesPageDto;
+import com.tema.blog.dto.BasicArticleDto;
+import com.tema.blog.dto.SingleStringValue;
 import com.tema.blog.facade.ArticleFacade;
-import com.tema.blog.facade.dto.ArticleDto;
-import com.tema.blog.facade.dto.ArticlesPageDto;
-import com.tema.blog.facade.dto.BasicArticleDto;
-import com.tema.blog.facade.dto.SingleStringValue;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;

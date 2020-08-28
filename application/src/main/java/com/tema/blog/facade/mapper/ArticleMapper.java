@@ -8,10 +8,10 @@ import java.util.List;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 
+import com.tema.blog.dto.ArticleDto;
+import com.tema.blog.dto.ArticlesPageDto;
+import com.tema.blog.dto.BasicArticleDto;
 import com.tema.blog.entity.Article;
-import com.tema.blog.facade.dto.ArticleDto;
-import com.tema.blog.facade.dto.ArticlesPageDto;
-import com.tema.blog.facade.dto.BasicArticleDto;
 
 @Service
 public class ArticleMapper {

@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.tema.blog.dto.CommentDto;
+import com.tema.blog.dto.SingleStringValue;
 import com.tema.blog.facade.CommentFacade;
-import com.tema.blog.facade.dto.CommentDto;
-import com.tema.blog.facade.dto.SingleStringValue;
 
 import io.swagger.v3.oas.annotations.Operation;
 

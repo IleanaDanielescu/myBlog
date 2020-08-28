@@ -12,15 +12,15 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 
+import com.tema.blog.dto.ArticleDto;
+import com.tema.blog.dto.ArticlesPageDto;
+import com.tema.blog.dto.BasicArticleDto;
 import com.tema.blog.entity.Article;
 import com.tema.blog.event.ArticleEvent;
 import com.tema.blog.event.ArticleEventType;
 import com.tema.blog.exception.BusinessException;
 import com.tema.blog.exception.ErrorCode;
 import com.tema.blog.facade.config.Facade;
-import com.tema.blog.facade.dto.ArticleDto;
-import com.tema.blog.facade.dto.ArticlesPageDto;
-import com.tema.blog.facade.dto.BasicArticleDto;
 import com.tema.blog.facade.mapper.ArticleMapper;
 import com.tema.blog.repository.ArticleRepository;
 
@@ -67,12 +67,6 @@ public class ArticleFacadeImpl implements ApplicationEventPublisherAware, Articl
 		articleOpt.ifPresent(articleRepo::delete);
 	}
 	
-//	private void checkArticleAlreadyExists(BasicArticleDto basicArticleDto) {
-//		Optional<Article> articleOpt =articleRepo.findByTitle(basicArticleDto.getTitle());
-//		if(articleOpt.isPresent()) {
-//			throw new BusinessException("error.article.title.already.exists", ErrorCode.TITLE_ALREADY_EXISTS);
-//		}
-//	}
 	
 	private void checkArticleAlreadyExists(String title, Long id) {
 		Optional<Article> articleOpt =articleRepo.findByTitle(title);

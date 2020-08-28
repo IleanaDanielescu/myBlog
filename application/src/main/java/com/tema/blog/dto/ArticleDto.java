@@ -1,4 +1,4 @@
-package com.tema.blog.facade.dto;
+package com.tema.blog.dto;
 
 import java.util.Date;
 

@@ -8,12 +8,12 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import com.tema.blog.dto.CommentDto;
 import com.tema.blog.entity.Article;
 import com.tema.blog.entity.Comment;
 import com.tema.blog.exception.BusinessException;
 import com.tema.blog.exception.ErrorCode;
 import com.tema.blog.facade.config.Facade;
-import com.tema.blog.facade.dto.CommentDto;
 import com.tema.blog.repository.ArticleRepository;
 import com.tema.blog.repository.CommentRepository;
 
